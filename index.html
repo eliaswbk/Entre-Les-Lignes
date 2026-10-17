@@ -187,8 +187,10 @@
       document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');activeFilter=btn.dataset.filter;filterCards();
     }));
     search.addEventListener('input',filterCards);
-    document.getElementById('year').textContent=new Date().getFullYear();
-
+   
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
 
 
